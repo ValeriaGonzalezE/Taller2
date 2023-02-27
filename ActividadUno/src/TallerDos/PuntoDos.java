@@ -43,9 +43,19 @@ public class PuntoDos {
 		}else if(opc==5) {
 			System.out.println("ingrese el valor de x: ");
 			double x = sc.nextInt();
+			System.out.println("ingrese el valor de y: ");
+			double y = sc.nextInt();
+			
+			double totalE = (double) 1/(y-1/(x-Math.pow(2, y)));
+			System.out.println("el resultado es: " + totalE);
+						
 		}else if(opc==6) {
 			System.out.println("ingrese el valor de x: ");
 			double x = sc.nextInt();
+			
+			double totalF = (double) 7*(Math.cos(Math.sqrt(5-Math.sin(Math.sqrt(3*x-4)))));
+			System.out.println("el resultado es: " + totalF);
+			
 		}else {
 			System.out.println("la opcion no existe");
 		}

@@ -9,6 +9,9 @@ public class Principal {
 		
 		PuntoDos p2 = new PuntoDos();
 		p2.calcularOperaciones();
-	}
+		
+		PuntoTres p3 = new PuntoTres();
+		p3.autobusesFurgonetas();
+	} 
 
 }
